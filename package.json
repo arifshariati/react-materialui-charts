@@ -1,10 +1,17 @@
 {
   "name": "react-materialui-charts",
-  "version": "1.0.0",
-  "description": "React Material UI Card and Papper component with reCharts ",
+  "version": "1.0.10",
+  "description": "Supplied Unique ID to children components",
   "author": "arifshariati",
+  "keywords": [
+    "react",
+    "material-ui",
+    "reCharts",
+    "material-ui Card",
+    "material-ui Paper",
+    "Charts"
+  ],
   "license": "MIT",
-  "repository": "arifshariati/react-materialui-charts",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -27,20 +34,20 @@
     "react": "^16.0.0"
   },
   "devDependencies": {
-    "microbundle-crl": "^0.13.10",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-prettier": "^6.13.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-config-standard-react": "^9.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
+    "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
@@ -49,5 +56,13 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "latest": "^0.2.0",
+    "material-ui": "^0.20.2",
+    "n": "^6.7.0",
+    "node": "^14.14.0",
+    "react-number-format": "^4.4.1",
+    "recharts": "^1.8.5"
+  }
 }
